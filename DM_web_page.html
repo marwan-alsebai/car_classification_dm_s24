@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm Comparison</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+
+<body>
+    <header>
+        <h1>Machine Learning Model Comparison</h1>
+        <p>A comparison of Logistic Regression, Decision Tree, and Naive Bayes on various performance metrics.</p>
+    </header>
+
+    <main>
+        <section class="table-section">
+            <h2>Algorithm Performance Metrics</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Algorithm</th>
+                        <th>Accuracy</th>
+                        <th>Precision</th>
+                        <th>Recall</th>
+                        <th>F1 Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Logistic Regression</td>
+                        <td>0.5765137340019459</td>
+                        <td>0.5095083035248615</td>
+                        <td>0.5765137340019459</td>
+                        <td>0.517004797737507</td>
+                    </tr>
+                    <tr>
+                        <td>Decision Tree</td>
+                        <td>0.8411795524287105</td>
+                        <td>0.8402068967384018</td>
+                        <td>0.8411795524287105</td>
+                        <td>0.8405739455548921</td>
+                    </tr>
+                    <tr>
+                        <td>Naive Bayes</td>
+                        <td>0.5560062869545692</td>
+                        <td>0.5338616142652116</td>
+                        <td>0.5560062869545692</td>
+                        <td>0.5153485891216913</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="product-metrics" class="container my-5">
+            <h2>Model Performance Metrics</h2>
+            <p class="text-center text-muted">Visualization of Model Performance Metrics : Accuracy, Precision, Recall, and F1 Score.</p>
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Logistic Regression Model Performance.png" alt="Logistic Regression Model Performance" class="img-fluid chart-img">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Decision Tree model Performance.png" alt="Decision Tree model Performance" class="img-fluid chart-img">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Naive Bayes model Performance.png" alt="Naive Bayes model Performance" class="img-fluid chart-img">
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; WDM_S24 marwan_320974 C2 | Vehicle Multi-Class Classification Using Machine Learning Algorithms </p> 
+    </footer>
+
+</body>
+</html>
